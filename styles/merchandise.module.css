@@ -1,0 +1,18 @@
+.container{
+    width:100%;
+    height: calc(80vh - 50px);
+    background-color: black;
+    display:flex;
+    }
+
+    .card{
+        
+        padding: 100px;
+        width: 100%;
+        align-items: center;
+        display: flex ;
+        flex-direction: column;
+        justify-content:space-around ;
+        color:white; 
+        position: relative;
+    }    

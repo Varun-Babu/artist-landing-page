@@ -1,0 +1,52 @@
+.container{
+    height:150px;
+    display:flex;
+    justify-content:space-around;
+    font-size: 18px;
+    align-items: center;
+    padding:30px;
+    background-color: black;
+}
+
+.title{
+    font-weight: 300;
+    font-family:fantasy;
+    color:white;
+    text-align:center;
+
+}
+.linkTitle{
+    color:white;
+    text-decoration:underline;
+
+}
+.link{
+    display:flex;
+    align-items: center;
+}
+
+.linkText{
+    margin-right: 20px;
+}
+
+.cardL{
+    flex:1;
+}
+.cardS{
+    flex:1;
+}
+
+.cardItem{
+    color:white;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:space-around;
+
+}
+.img{
+    z-index:999;
+    position: absolute;
+    overflow: hidden;
+    clip: auto;
+    margin-bottom: 50px;
+}
